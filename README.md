@@ -3,7 +3,9 @@ A Flappy Bird clone, but game adapts difficulty in real-time using AI / logic
 
 ### Features to add:
 - design the bird
-- a new theme per turn
+- a new theme per turn (like snow or fall)
+- bird gets angrier / sweatier the higher the difficulty
+- snarky remarks
 
 ## Day 1
 - created repo + basic folder structure
