@@ -3,7 +3,7 @@ import pygame
 class Bird:
     def __init__(self, x, y):
         self.image = pygame.image.load("assets/bird.png").convert_alpha()
-        self.image = pygame.transform.scale(self.image, (40, 30)) #shrinking the brid
+        self.image = pygame.transform.scale(self.image, (80, 80)) #shrinking the brid
         self.rect = self.image.get_rect(center=(x, y))
         self.velocity = 0
         self.gravity = 0.5
